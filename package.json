@@ -1,0 +1,29 @@
+{
+  "name": "lightingControlSystem",
+  "version": "1.0.0",
+  "description": "meeting room lighting control",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimCN/lightingControlSystem.git"
+  },
+  "keywords": [],
+  "author": "tim Huang <tim.shanghai@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimCN/lightingControlSystem/issues"
+  },
+  "homepage": "https://github.com/TimCN/lightingControlSystem#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
